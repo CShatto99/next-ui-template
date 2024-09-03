@@ -1,0 +1,4 @@
+{
+  "*.{md,json,css,scss}": ["npm run format:fix"],
+  "*.{js,ts,jsx,tsx}": ["npm run format:fix", "next lint --fix --file"]
+}
