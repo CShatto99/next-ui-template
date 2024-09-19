@@ -1,4 +1,5 @@
 # https://github.com/changesets/action
+
 name: Release
 
 on:
@@ -31,7 +32,7 @@ jobs:
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: npm audit signatures
       - name: Lint, Format, and Test
-        run: npm run lint:fix && npm run format:fix && npm run test:unit:ci
+        run: npm run lint:fix && npm run format:fix && npm run test-unit:ci
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
       - name: Run Playwright tests

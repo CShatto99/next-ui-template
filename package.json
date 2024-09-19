@@ -2,7 +2,8 @@
   "name": "next-ui-template",
   "version": "0.0.0-semantic-release",
   "description": "An opinionated starter kit for Next.js web apps.",
-  "author": "Cameron Shatto",
+  "author": "Cameron Shatto <cameronshatto99@gmail.com>",
+  "license": "MIT",
   "private": true,
   "homepage": "https://github.com/CShatto99/next-ui-template",
   "repository": {
@@ -49,11 +50,11 @@
     "prepare": "husky",
     "start": "next start",
     "storybook": "storybook dev -p 6006",
-    "test:e2e": "playwright test",
-    "test:e2e:report": "playwright show-report",
-    "test:unit": "vitest",
-    "test:unit:ci": "vitest run",
-    "test:unit:coverage": "vitest run --coverage"
+    "test-e2e": "playwright test",
+    "test-e2e:report": "playwright show-report",
+    "test-unit": "vitest",
+    "test-unit:ci": "vitest run",
+    "test-unit:coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@mantine/core": "^7.12.2",
@@ -98,6 +99,7 @@
     "postcss-preset-mantine": "^1.17.0",
     "postcss-simple-vars": "^7.0.1",
     "prettier": "^3.3.3",
+    "sass": "^1.79.1",
     "storybook": "^8.2.9",
     "storybook-dark-mode": "^4.0.2",
     "typedoc": "^0.26.6",

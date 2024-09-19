@@ -25,11 +25,11 @@ An opinionated starter kit for Next.js web apps.
   - [prepare](#prepare)
   - [start](#start)
   - [storybook](#storybook)
-  - [test:e2e](#teste2e)
-  - [test:e2e:report](#teste2ereport)
-  - [test:unit](#testunit)
-  - [test:unit:ci](#testunitci)
-  - [test:unit:coverage](#testunitcoverage)
+  - [test-e2e](#test-e2e)
+  - [test-e2e:report](#test-e2ereport)
+  - [test-unit](#test-unit)
+  - [test-unit:ci](#test-unitci)
+  - [test-unit:coverage](#test-unitcoverage)
 
 - [Tech Stack](#tech-stack)
 
@@ -170,42 +170,42 @@ npm run storybook
 
 This script starts the Storybook development server on port 6006 with `storybook dev`. It provides a live environment for developing and testing UI components in isolation.
 
-### `test:e2e`
+### `test-e2e`
 
 ```shell
-npm run test:e2e
+npm run test-e2e
 ```
 
 Runs end-to-end tests using the `playwright test` command. This script executes the Playwright test suite to verify that the application functions correctly across various browsers.
 
-### `test:e2e:report`
+### `test-e2e:report`
 
 ```shell
-npm run test:e2e:report
+npm run test-e2e:report
 ```
 
 Generates and displays the Playwright test report using the `playwright show-report` command. This script provides a visual summary of test results, making it easier to review outcomes and diagnose any issues encountered during the tests.
 
-### `test:unit`
+### `test-unit`
 
 ```shell
-npm run test:unit
+npm run test-unit
 ```
 
 Executes tests using [Vitest](https://vitest.dev), a versatile test runner for modern web applications.
 
-### `test:unit:ci`
+### `test-unit:ci`
 
 ```shell
-npm run test:unit:ci
+npm run test-unit:ci
 ```
 
 Runs tests in a continuous integration environment using [`vitest run`](https://vitest.dev/guide/cli.html#vitest-run). This command executes the tests without entering watch mode and exits once the test suite completes
 
-### `test:unit:coverage`
+### `test-unit:coverage`
 
 ```shell
-npm run test:unit:coverage
+npm run test-unit:coverage
 ```
 
 Runs tests with coverage analysis using [`vitest run --coverage`](https://vitest.dev/guide/coverage.html#coverage-setup), generating a detailed report of test coverage for the project. The coverage report can be viewed by opening `coverage/index.html` in a web browser.
