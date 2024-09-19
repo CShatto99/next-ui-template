@@ -1,3 +1,9 @@
+## [1.0.1-dev.2](https://github.com/CShatto99/next-ui-template/compare/v1.0.1-dev.1...v1.0.1-dev.2) (2024-09-19)
+
+### Bug Fixes
+
+- **dev:** fix vitest config ([ca30372](https://github.com/CShatto99/next-ui-template/commit/ca3037298372c9ec0ef2c6d2edc58e7209d7eec5))
+
 ## [1.0.1-dev.1](https://github.com/CShatto99/next-ui-template/compare/v1.0.0...v1.0.1-dev.1) (2024-09-19)
 
 ### Bug Fixes
